@@ -5,5 +5,5 @@
             document.write('<script src="' + item + '"></script>');
           });
 
-		  document.write('<script src="https://cdn.jsdelivr.net/gh/pctechkid/goindex-modified@${themeOptions.version}/dist/js/app.da7f5f3f.js"></script>');
-		  document.write('<script src="https://cdn.jsdelivr.net/gh/pctechkid/goindex-modified@${themeOptions.version}/dist/js/chunk-vendors.3c185c97.js"></script>');
+		  document.write('<script src="https://cdn.jsdelivr.net/gh/pctechkid/goindex-modified@'+${themeOptions.version}+'/dist/js/app.da7f5f3f.js"></script>');
+		  document.write('<script src="https://cdn.jsdelivr.net/gh/pctechkid/goindex-modified@'+${themeOptions.version}+'/dist/js/chunk-vendors.3c185c97.js"></script>');
